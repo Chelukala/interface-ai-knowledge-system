@@ -1,0 +1,23 @@
+# Confidential credit-union snapshots: never publish
+snapshots_zip/
+snapshots/*/
+**/manifest.json
+**/pages/*.md
+*.zip
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*_secret*
+credentials.json
+# Local outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+results/
+*.log
+.DS_Store
